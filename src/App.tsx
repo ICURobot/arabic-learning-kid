@@ -44,19 +44,19 @@ const CATEGORIES: Record<string, MainCategory> = {
         words: [
           { en: 'Hello', ar: 'مَرْحَبًا', tr: 'Marhaban', ph: '(mar-ha-ban)', emoji: '👋' },
           { en: 'Thank you', ar: 'شُكْرًا', tr: 'Shukran', ph: '(shook-rahn)', emoji: '🙏' },
-          { en: 'Please', ar: 'مِنْ فَضْلِك', tr: 'Min fadlik', ph: '(min fad-lik)', emoji: '✨' },
-          { en: 'Friend', ar: 'صَدِيق', tr: 'Sadiq', ph: '(sa-deeq)', emoji: '👫' },
+          { en: 'Please', ar: 'مِنْ فَضْلِكِ', tr: 'Min fadlik', ph: '(min fad-lik)', emoji: '✨' },
+          { en: 'Friend', ar: 'صَدِيقٌ', tr: 'Sadiq', ph: '(sa-deeq)', emoji: '👫' },
         ]
       },
       {
         id: 'numbers',
         name: 'Numbers',
         words: [
-          { en: 'One', ar: 'وَاحِد', tr: 'Wahid', ph: '(waa-hid)', emoji: '1️⃣' },
-          { en: 'Two', ar: 'اِثْنَان', tr: 'Ithnan', ph: '(ith-naan)', emoji: '2️⃣' },
-          { en: 'Three', ar: 'ثَلَاثَة', tr: 'Thalatha', ph: '(tha-laa-tha)', emoji: '3️⃣' },
-          { en: 'Four', ar: 'أَرْبَعَة', tr: 'Arba\'a', ph: '(ar-ba-a)', emoji: '4️⃣' },
-          { en: 'Five', ar: 'خَمْسَة', tr: 'Khamsa', ph: '(kham-sa)', emoji: '5️⃣' },
+          { en: 'One', ar: 'وَاحِدٌ', tr: 'Wahid', ph: '(waa-hid)', emoji: '1️⃣' },
+          { en: 'Two', ar: 'اِثْنَانِ', tr: 'Ithnan', ph: '(ith-naan)', emoji: '2️⃣' },
+          { en: 'Three', ar: 'ثَلَاثَةٌ', tr: 'Thalatha', ph: '(tha-laa-tha)', emoji: '3️⃣' },
+          { en: 'Four', ar: 'أَرْبَعَةٌ', tr: 'Arba\'a', ph: '(ar-ba-a)', emoji: '4️⃣' },
+          { en: 'Five', ar: 'خَمْسَةٌ', tr: 'Khamsa', ph: '(kham-sa)', emoji: '5️⃣' },
         ]
       }
     ]
@@ -74,10 +74,10 @@ const CATEGORIES: Record<string, MainCategory> = {
         words: [
           { en: 'Dad', ar: 'بَابَا', tr: 'Baba', ph: '(baa-baa)', emoji: '👨' },
           { en: 'Mom', ar: 'مَامَا', tr: 'Mama', ph: '(maa-maa)', emoji: '👩' },
-          { en: 'Brother', ar: 'أَخ', tr: 'Akh', ph: '(akh)', emoji: '👦' },
-          { en: 'Sister', ar: 'أُخْت', tr: 'Ukht', ph: '(ookht)', emoji: '👧' },
-          { en: 'Grandpa', ar: 'جَدّ', tr: 'Jadd', ph: '(jadd)', emoji: '👴' },
-          { en: 'Grandma', ar: 'جَدَّة', tr: 'Jadda', ph: '(jad-da)', emoji: '👵' },
+          { en: 'Brother', ar: 'أَخٌ', tr: 'Akh', ph: '(akh)', emoji: '👦' },
+          { en: 'Sister', ar: 'أُخْتٌ', tr: 'Ukht', ph: '(ookht)', emoji: '👧' },
+          { en: 'Grandpa', ar: 'جَدٌّ', tr: 'Jadd', ph: '(jadd)', emoji: '👴' },
+          { en: 'Grandma', ar: 'جَدَّةٌ', tr: 'Jadda', ph: '(jad-da)', emoji: '👵' },
           { en: 'I love you', ar: 'أُحِبُّكِ', tr: 'Uhibbuki', ph: '(oo-hib-boo-kee)', emoji: '❤️' },
         ]
       },
@@ -85,11 +85,11 @@ const CATEGORIES: Record<string, MainCategory> = {
         id: 'daily',
         name: 'Daily Fun',
         words: [
-          { en: "Let's play", ar: 'هَيَّا نَلْعَب', tr: 'Hayya nal\'ab', ph: '(hay-ya nal-ab)', emoji: '🎮' },
-          { en: 'School', ar: 'مَدْرَسَة', tr: 'Madrasa', ph: '(mad-ra-sa)', emoji: '🏫' },
-          { en: 'Book', ar: 'كِتَاب', tr: 'Kitab', ph: '(ki-taab)', emoji: '📚' },
-          { en: 'Apple', ar: 'تُفَّاحَة', tr: 'Tuffaha', ph: '(toof-fa-ha)', emoji: '🍎' },
-          { en: 'Home', ar: 'بَيْت', tr: 'Bayt', ph: '(bayt)', emoji: '🏠' }
+          { en: "Let's play", ar: 'هَيَّا نَلْعَبُ', tr: 'Hayya nal\'ab', ph: '(hay-ya nal-ab)', emoji: '🎮' },
+          { en: 'School', ar: 'مَدْرَسَةٌ', tr: 'Madrasa', ph: '(mad-ra-sa)', emoji: '🏫' },
+          { en: 'Book', ar: 'كِتَابٌ', tr: 'Kitab', ph: '(ki-taab)', emoji: '📚' },
+          { en: 'Apple', ar: 'تُفَّاحَةٌ', tr: 'Tuffaha', ph: '(toof-fa-ha)', emoji: '🍎' },
+          { en: 'Home', ar: 'بَيْتٌ', tr: 'Bayt', ph: '(bayt)', emoji: '🏠' }
         ]
       }
     ]
@@ -105,20 +105,20 @@ const CATEGORIES: Record<string, MainCategory> = {
         id: 'sports',
         name: 'Winter Sports',
         words: [
-          { en: 'Ice Skating', ar: 'التَّزَلُّج', tr: 'At-tazalluj', ph: '(at-ta-zal-looj)', emoji: '⛸️' },
-          { en: 'Skiing', ar: 'التَّزَلُّج عَلَى الجَلِيد', tr: 'At-tazalluj \'ala al-jalid', ph: '(at-ta-zal-looj a-la al-ja-leed)', emoji: '⛷️' },
+          { en: 'Ice Skating', ar: 'التَّزَلُّجُ', tr: 'At-tazalluj', ph: '(at-ta-zal-looj)', emoji: '⛸️' },
+          { en: 'Skiing', ar: 'التَّزَلُّجُ عَلَى الْجَلِيدِ', tr: 'At-tazalluj \'ala al-jalid', ph: '(at-ta-zal-looj a-la al-ja-leed)', emoji: '⛷️' },
         ]
       },
       {
         id: 'winter_fun',
         name: 'Winter Fun',
         words: [
-          { en: 'Snow', ar: 'ثَلْج', tr: 'Thalj', ph: '(thalj)', emoji: '❄️' },
-          { en: 'Snowman', ar: 'رَجُل ثَلْج', tr: 'Rajul thalj', ph: '(ra-jool thalj)', emoji: '☃️' },
-          { en: 'Penguin', ar: 'بَطْرِيق', tr: 'Batriq', ph: '(bat-reeq)', emoji: '🐧' },
-          { en: 'Cold', ar: 'بَارِد', tr: 'Barid', ph: '(baa-rid)', emoji: '🥶' },
-          { en: 'Hot Chocolate', ar: 'شُوكُولاتَة سَاخِنَة', tr: 'Shukulata sakhina', ph: '(shoo-koo-laa-ta saa-khi-na)', emoji: '☕' },
-          { en: 'Gloves', ar: 'قُفَّازَات', tr: 'Quffazat', ph: '(qoof-faa-zaat)', emoji: '🧤' }
+          { en: 'Snow', ar: 'ثَلْجٌ', tr: 'Thalj', ph: '(thalj)', emoji: '❄️' },
+          { en: 'Snowman', ar: 'رَجُلُ ثَلْجٍ', tr: 'Rajul thalj', ph: '(ra-jool thalj)', emoji: '☃️' },
+          { en: 'Penguin', ar: 'بَطْرِيقٌ', tr: 'Batriq', ph: '(bat-reeq)', emoji: '🐧' },
+          { en: 'Cold', ar: 'بَارِدٌ', tr: 'Barid', ph: '(baa-rid)', emoji: '🥶' },
+          { en: 'Hot Chocolate', ar: 'شُوكُولَاتَةٌ سَاخِنَةٌ', tr: 'Shukulata sakhina', ph: '(shoo-koo-laa-ta saa-khi-na)', emoji: '☕' },
+          { en: 'Gloves', ar: 'قُفَّازَاتٌ', tr: 'Quffazat', ph: '(qoof-faa-zaat)', emoji: '🧤' }
         ]
       }
     ]
